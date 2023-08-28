@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Chat App P1",
+    "version": "1.0",
+    "description": "It works fine",
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://vrbe.nextsolutions.in/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

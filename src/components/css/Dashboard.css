@@ -1,0 +1,16 @@
+.Dashboard {
+    background-color: wheat;
+    height: 51.35rem
+}
+
+.btn-sticky {
+    position: fixed;
+    width: 3%;
+    right: 0;
+    bottom: 5%;
+    height: 5%;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2em 0 0 2em;
+}

@@ -1,0 +1,45 @@
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: gray;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.google-login-button:hover {
+  background-color: lightblue;
+  color: black;
+  border-color: transparent;
+}
+
+.google-login-button__icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('google-icon.png');
+  background-size: cover;
+  margin-right: 8px;
+}
+
+.google-login-button__text {
+  vertical-align: middle;
+}
+
+.app-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

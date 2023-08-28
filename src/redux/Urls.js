@@ -1,0 +1,5 @@
+export const LOGIN_URL = "https://vrbe.nextsolutions.in/login"
+export const LOGIN_URL_2 = "https://vrbe.nextsolutions.in/login"
+export const CHAT_URL = "https://vrbe.nextsolutions.in/chat"
+export const FETCH_CHAT_HISTORY = "https://vrbe.nextsolutions.in/chat/chatHistory"
+export const COMPOSE_MESSAGE_URL = "https://vrbe.nextsolutions.in/chat/composeMessage"

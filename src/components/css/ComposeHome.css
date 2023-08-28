@@ -1,0 +1,72 @@
+.text-area-compose {
+    width: 95%;
+    padding: 0.7em;
+    border-color: lightgray;
+    margin: 0 0.5em 0.5em 0.5em;
+    border-radius: 0.2em;
+    
+}
+
+.compose-label {
+    float: left;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.button-group {
+    padding-left: 1em;
+    text-align: left !important;
+}
+
+.label-radio-button {
+    background-color: transparent;
+    margin: 0 0.5em 0.5rem 0;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+    border-style: solid;
+    border-radius: 0.4em;
+    border-width: 0.1em;
+    border-color: #4074e4;
+    color: #4074e4;
+}
+
+.generate-draft-button {
+    width: 92%;
+    margin: 0.5rem 0 1em 0;
+    padding: 0.3em;
+    border-radius: 1.5em;
+    background-color: #4074e4;
+    color: white;
+    font-weight:900;
+    border: none;
+}
+.disabled-generate-button{
+    opacity: 50%;
+}
+.copy-button {
+    width: 45%;
+    padding: 0.3em;
+    margin: 0.5rem 0.5em 1em 0;
+    background-color: white;
+    color: #4074e4;
+    border-style: solid;
+    border-color: #4074e4;
+    border-radius: 1.5em;
+    border-width: 0.06em;
+    font-size: small;
+    font-weight: bold;
+}
+.disabled-copy-button{
+   background-color: lightgray;
+   color: gray;
+   border: none;
+}
+
+.selected-button{
+    background-color:lightcyan;
+    font-weight: bold;
+}
+.btn-close{
+    cursor: pointer;
+    width: 0.2em !important;
+}

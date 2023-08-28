@@ -1,0 +1,39 @@
+.modal-container {
+    z-index: 999;
+    position: fixed;
+    top: 15%;
+    border-style: solid;
+    border-color: gray;
+    background-color: lightgoldenrodyellow;
+    height: 87%;
+    width: 29%;
+    border-radius: 1rem;
+    overflow: scroll;
+}
+
+
+
+.title-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.close-icon {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-container {
+        top: 25%;
+        height: 77%;
+        width: 96%;
+    }
+}

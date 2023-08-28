@@ -1,0 +1,35 @@
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.mypt-1{
+padding-top: 0.1em;
+}
+
+.icon-margin{
+margin: 0.3em;
+}
+
+.color-secondary{
+    color:#0e6fab
+}
+.common-divider{
+background-color: black;
+width: 100%;
+}
+
+.common-button{
+    background-color: transparent;
+    margin: 0 0.5em 0.5rem 0;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+    border-style: solid;
+    border-radius: 0.4em;
+    border-width: 0.1em;
+    border-color: #4074e4;
+    color: #4074e4;
+}
